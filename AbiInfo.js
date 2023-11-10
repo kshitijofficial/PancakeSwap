@@ -1,6 +1,6 @@
 const erc20ABI=["function decimals() public view returns (uint8)"]
 
-//it will return the adress of liquidty Provider contract
+//it will return the adress of liquidty pool contract
 //0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16 for BUSD and WBNB
 const factoryABI=[
     "function getPair(address tokenA, address tokenB) external view returns (address pair)"
